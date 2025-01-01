@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: jalapeno-ui
-        image: jalapeno-ui:latest  # Update with your image repository
+        image: iejalapeno/jalapeno-ui:latest  
         ports:
         - containerPort: 80
         env:
