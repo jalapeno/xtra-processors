@@ -18,6 +18,7 @@ spec:
       containers:
       - name: jalapeno-ui
         image: iejalapeno/jalapeno-ui:latest  
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         env:
